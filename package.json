@@ -1,0 +1,17 @@
+{
+  "name": "vueauth-docs",
+  "version": "1.0.0",
+  "description": "The VueAuth Documentation",
+  "main": "index.js",
+  "repository": "https://github.com/vueauth/docs",
+  "author": "Luke Diebold <luke@ldiebold.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-beta.32",
+    "vuepress": "^2.0.0-beta.32"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
