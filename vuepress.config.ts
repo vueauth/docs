@@ -1,7 +1,15 @@
-import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
-import { defineUserConfig } from '@vuepress/cli'
-import type { DefaultThemeOptions } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import type { DefaultThemeOptions } from 'vuepress'
 
-export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
-  bundler: '@vuepress/bundler-vite',
+export default defineUserConfig<DefaultThemeOptions>({
+  // site config
+  lang: 'en-US',
+  title: 'VueAuth',
+  description: 'Vue Authentication Vue Made Easy!',
+
+  // theme and its config
+  theme: '@vuepress/theme-default',
+  themeConfig: {
+    logo: 'https://vuejs.org/images/logo.png',
+  },
 })
