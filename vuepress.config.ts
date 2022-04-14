@@ -11,5 +11,23 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
+    sidebar: [
+      {
+        text: 'Guide',
+        children: [
+          '/guide/introduction',
+          '/guide/getting-started',
+        ],
+      },
+      {
+        text: 'Auth Providers',
+        collapsible: true,
+        children: [
+          '/providers/supabase',
+          '/providers/firebase',
+          '/providers/laravel-sanctum'
+        ]
+      }
+    ]
   },
 })
