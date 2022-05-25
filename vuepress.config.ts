@@ -10,7 +10,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    // logo: 'https://vuejs.org/images/logo.png',
     sidebar: [
       {
         text: 'Guide',
