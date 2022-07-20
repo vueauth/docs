@@ -9,7 +9,7 @@ actions:
     link: /guide/introduction
     type: secondary
 features:
-  - title: Many Provides, ONE API
+  - title: Many Providers, ONE API
     details: All VueAuth providers follow the same API (Contract). Be it Laravel, Firebase or Supabase, they all work the same.
   - title: Adding Providers Is Simple
     details: Don't see a provider for your backend? No worries! Implement VueAuth's contracts and you're good to go. We even wrote the tests for you!
